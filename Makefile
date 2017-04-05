@@ -20,7 +20,10 @@ install:
 	chmod +x $(INIT_PATH)
 uninstall:
 	@echo "Note: this operation requires root privileges"
+	@echo "Deleting init script"
 	rm -f $(INIT_PATH) 
+	@echo "Removing init script from rc.local (if enabled)"
+	sed -i '\:$(INIT_PATH):d' /etc/rc.local
 enable:
 	@echo "Adding script to rc.local"
 	@echo "Note: this operation requires root privileges"
