@@ -3,7 +3,7 @@
 
 # NOTE: this file is sourced as a make/shell script. Play nice with its formatting.
 
-CONFIGURED=true
+CONFIGURED=false
 
 PROG_AUTHOR=John H. Doe
 PROG_DESCR=Example Service That Does Things
