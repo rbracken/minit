@@ -1,0 +1,16 @@
+# This is the configuration file for your init script
+# Change the values as required, and then set the CONFIGURED flag to true
+
+# NOTE: this file is sourced as a make/shell script. Play nice with its formatting.
+
+CONFIGURED=true
+
+PROG_AUTHOR=John H. Doe
+PROG_DESCR=Example Service That Does Things
+
+INIT_PATH=/etc/init.d/some_service
+SERVICE_NAME=some_service
+BIN_PATH=/bin/false
+RUN_AS=nobody
+
+
