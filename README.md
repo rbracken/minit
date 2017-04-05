@@ -18,6 +18,7 @@ require OS-specific/init-system specific configuration.
   script.
 - To enable the script to run from rc.local at boot, run `make enable`.
 - To disable the script from running at boot, run `make disable`.
+- To remove the entire installation, run `make uninstall`
 
 # Usage
 Once installed, the service can be started/stopped as root:
